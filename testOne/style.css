@@ -1,0 +1,54 @@
+.container {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 500px;
+    margin-bottom: 50px;
+}
+body {
+    background-size: cover ;
+    background-position: center;
+    background-attachment: fixed ;
+    margin: 0;
+    height: 100vh;
+}
+button {
+    background-color: orange;
+    font-size: 42px;
+    color: white;
+    border-radius: 15px;
+    border: none;
+}
+.seasons {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.winter {
+    background-color: deepskyblue;
+    padding: 75px 125px;
+    border-radius: 15px;
+    font-size: 42px;
+    color: white;
+}
+.spring {
+    background-color: limegreen;
+    padding: 75px 125px;
+    border-radius: 15px;
+    font-size: 42px;
+    color: white;
+}
+.summer {
+    background-color: #e8db25;
+    padding: 75px 125px;
+    border-radius: 15px;
+    font-size: 42px;
+    color: white;
+}
+.autumn {
+    background-color: darkorange;
+    padding: 75px 125px;
+    border-radius: 15px;
+    font-size: 42px;
+    color: white;
+}
