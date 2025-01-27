@@ -1,0 +1,63 @@
+body {
+    background-color: #978a61;
+}
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.buttonContainer {
+    display: flex;
+}
+.container {
+    width: 1200px;
+    height: 300px;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttons {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 100px;
+    height: 50px;
+}
+.red {
+    background-color: red;
+}
+.green {
+    background-color: green;
+}
+.blue {
+    background-color: blue;
+}
+.yellow {
+    background-color: yellow;
+}
+.purple {
+    background-color: purple;
+}
+.square_block {
+    display: flex;
+}
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: #6cdd74;
+    margin-bottom: 20px;
+    display: block;
+    margin-right: 50px;
+}
+#counter {
+    font-size: 50px;
+    margin-top: 150px;
+}
